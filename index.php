@@ -18,7 +18,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
             $img = $_GET['img'];
             $pelicula = new Pelicula($nombre, $img);
             $pelicula->nuevaPelicula($pelicula);
-            $mail = new Mailer("Pelicula", "Se creo la siguiente pelicula ".$nombre.", con su respectiva img: ".$img, "gen19TIC@anima.edu.uy");
+            $mail = new Mailer("Pelicula", "Se creo la siguiente pelicula ".$nombre.", con su respectiva img: ".$img, "rodrigoalbano@anima.edu.uy");
             $mail->sendMail($mail);
         } else {
             http_response_code(405);
