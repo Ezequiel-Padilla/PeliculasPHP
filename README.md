@@ -40,9 +40,9 @@ Entrar a esta [url](http://localhost/PeliculasPHP/) para comenzar!
 ## Ejecutando las pruebas ⚙️
 
 Para ejecutar las pruebas debemos ingresar a la web como se explicó al final del punto [Instalación](https://github.com/Ezequiel-Padilla/PeliculasPHP#instalación-)
-1. Ver todas las películas (nombre e ID) activas en la Base de Datos, por ende nos dirigimos a [link](http://localhost/PeliculasPHP/) haciendo uso del metodo GET en Postman\
-2. Ver todos los datos de una película (ingresando ID), por ende nos dirigimos a [link](http://localhost/PeliculasPHP/?idPelicula=1)haciendo uso del metodo GET en Postman. Si queres otra pelicula tan solo tenemos que cambiar el valor del id\
-3. Crear película (nombre, imágen), por ende nos dirigimos a postman y haciendo uso del metodo POST ingresamos nombre e imagen de la pelicula\
+1. Ver todas las películas (nombre e ID) activas en la Base de Datos, por ende nos dirigimos a [link](http://localhost/PeliculasPHP/) haciendo uso del metodo GET en Postman
+2. Ver todos los datos de una película (ingresando ID), por ende nos dirigimos a [link](http://localhost/PeliculasPHP/?idPelicula=1) haciendo uso del metodo GET en Postman. Si queres otra pelicula tan solo tenemos que cambiar el valor del id
+3. Crear película (nombre, imágen), por ende nos dirigimos a postman y haciendo uso del metodo POST ingresamos nombre e imagen de la pelicula
 4. La creación la de película debe enviar un correo de notificación (rodrigoalbano@anima.edu.uy) con los datos de la película, una vez que completemos le paso anterior ya enviará el mail
 
 ## Construido con 🛠️
