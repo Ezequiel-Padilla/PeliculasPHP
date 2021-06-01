@@ -34,31 +34,16 @@ tabla:
   nombre VARCHAR\
   img VARCHAR\
   activo TINYINT(1)\
-  \
 
 Entrar a esta [url](http://localhost/PeliculasPHP/) para comenzar!
 
 ## Ejecutando las pruebas ⚙️
 
-Para ejecutar las pruebas debemos ingresar a la web como se explicó al final del punto [Instalación](https://github.com/DosSantosBrunoo/agenda_covid/blob/README/README.md#instalación-)
-1. Agendar a alguien en nuestra tabla `agenda`, por ende nos dirigimos a [Agendar](http://localhost/agenda_covid/view/agendarme.php)\
-Ingresar CI válida(Que dicha CI exista en la tabla `usuario`) e ingresarle telefono al usuario.
-2. Borrar a alguien de nuestra tabla `agenda`, por ende nos dirigimos a [Borrar](http://localhost/agenda_covid/view/borrar.php)\
-Ingresar CI válida(Que dicha CI exista en la tabla `agenda`)
-3. Consultar las dosis de un usuario desde la tabla `agenda`, por ende nos dirigimos a [Consultar](http://localhost/agenda_covid/view/consultar_1.php)\
-Ingresar CI válida(Que dicha CI exista en la tabla `agenda`)
-4. Consultar cantidad de usuarios agendados por grupo desde la tabla `agenda`, por ende nos dirigimos a [Consultar por grupo](http://localhost/agenda_covid/view/consultar_2.php)
-Seleccione grupo de usuarios
-5. Consultar cantidad de usuarios agendados por grupo de edad desde la tabla `agenda`, por ende nos dirigimos a [Consultar por edad](http://localhost/agenda_covid/view/consultar_3.php)\
-Selecciona grupo de edad
-
-### Analice las pruebas end-to-end 🔩
-
-1. Un usuario existente se pueda agendar
-2. La agenda de un usuario se pueda borrar
-3. Se puedan consultar los usuarios agendados
-4. Se pueden consultar los usuarios agendados por grupos
-5. Se pueden consultar los usuarios agendados por grupos de edad
+Para ejecutar las pruebas debemos ingresar a la web como se explicó al final del punto [Instalación](https://github.com/Ezequiel-Padilla/PeliculasPHP#instalación-)
+1. Ver todas las películas (nombre e ID) activas en la Base de Datos, por ende nos dirigimos a [link](http://localhost/PeliculasPHP/) haciendo uso del metodo GET en Postman\
+2. Ver todos los datos de una película (ingresando ID), por ende nos dirigimos a [link](http://localhost/PeliculasPHP/?idPelicula=1)haciendo uso del metodo GET en Postman. Si queres otra pelicula tan solo tenemos que cambiar el valor del id\
+3. Crear película (nombre, imágen), por ende nos dirigimos a postman y haciendo uso del metodo POST ingresamos nombre e imagen de la pelicula\
+4. La creación la de película debe enviar un correo de notificación (rodrigoalbano@anima.edu.uy) con los datos de la película, una vez que completemos le paso anterior ya enviará el mail
 
 ## Construido con 🛠️
 
@@ -67,6 +52,8 @@ Selecciona grupo de edad
 ## Autores ✒️
 
 * **Ezequiel Padilla** - *Desarrollador* - [Linkedin](https://www.linkedin.com/in/ezequiel-padilla-46804a193/) - [GITHUB](https://github.com/Ezequiel-Padilla)
+* **Brian Morales** - *Desarrollador* - [Linkedin](https://www.linkedin.com/in/brian-morales-sosa/) - [GITHUB](https://github.com/BrunoMartinez17)
+* **Bruno Martinez** - *Desarrollador* - [GITHUB](https://github.com/Ezequiel-Padilla)
 
 ## Expresiones de Gratitud 🎁
 
