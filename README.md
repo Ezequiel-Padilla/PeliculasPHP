@@ -52,8 +52,8 @@ Para ejecutar las pruebas debemos ingresar a la web como se explicó al final de
 ## Autores ✒️
 
 * **Ezequiel Padilla** - *Desarrollador* - [Linkedin](https://www.linkedin.com/in/ezequiel-padilla-46804a193/) - [GITHUB](https://github.com/Ezequiel-Padilla)
-* **Brian Morales** - *Desarrollador* - [Linkedin](https://www.linkedin.com/in/brian-morales-sosa/) - [GITHUB](https://github.com/BrunoMartinez17)
-* **Bruno Martinez** - *Desarrollador* - [GITHUB](https://github.com/Ezequiel-Padilla)
+* **Brian Morales** - *Desarrollador* - [Linkedin](https://www.linkedin.com/in/brian-morales-sosa/) - [GITHUB](https://github.com/braimor)
+* **Bruno Martinez** - *Desarrollador* - [GITHUB](https://github.com/BrunoMartinez17)
 
 ## Expresiones de Gratitud 🎁
 
